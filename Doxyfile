@@ -1,0 +1,62 @@
+# Doxyfile for Word Ladder Project
+# Minimal configuration for HTML output
+
+# Project name
+PROJECT_NAME           = "Word Ladder Solver"
+PROJECT_BRIEF          = "A Qt-based application to solve and play the Word Ladder game."
+
+# Input settings
+INPUT                  = .
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = YES
+
+# Output settings
+GENERATE_HTML          = YES
+HTML_OUTPUT            = docs/html
+
+GENERATE_LATEX         = NO
+
+# Extract all entities (classes, private members, etc.)
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+
+# Include brief descriptions
+BRIEF_MEMBER_DESC      = YES
+REPEAT_BRIEF           = YES
+
+# Show function parameters in documentation
+ALWAYS_DETAILED_SEC    = YES
+
+# Enable source code browsing
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+STRIP_CODE_COMMENTS    = NO
+
+# Warn if undocumented members exist
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+
+# Enable use of Markdown
+MARKDOWN_SUPPORT       = YES
+
+# Strip from path to shorten displayed file paths
+STRIP_FROM_PATH        = .
+
+# Dot tool (for diagrams)
+HAVE_DOT               = NO
+
+# Language
+OUTPUT_LANGUAGE        = English
+
+# Optimize for C++
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_JAVA   = NO
+OPTIMIZE_FOR_CPLUSPLUS = YES
+
+# Treat .h files as C++
+EXTENSION_MAPPING      = h=C++
+
+# Use relative paths in HTML
+HTML_TIMESTAMP         = YES
